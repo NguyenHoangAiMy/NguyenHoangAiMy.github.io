@@ -11,7 +11,7 @@
   <div class="a">
                <h1>Xin chào các bạn đã đến với website đầu tiên của tôi! </h1>
                <h3>----------------------------------------------------------------------------------------</h3>
-               <img src=“https://i.imgflip.com/18l8zd.jpg”>  
+               <img src=“http://webcoban.vn/image/cat-2.jpg”>  
   </div>
   
   <div class="a">
