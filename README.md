@@ -11,7 +11,7 @@
   <div class="a">
                <h1>Xin chào các bạn đã đến với website đầu tiên của tôi! </h1>
                <h4>----------------------------------------------------------------------------------------</h4>
-               <img src=“https://www.pinterest.com/pin/364791638561025130/” alt=“https://www.pinterest.com/” >  
+               <img src=“https://www.pinterest.com/pin/364791638561025130/” alt=“pinterest.com/”>  
   </div>
   
   <div class="a">
