@@ -15,7 +15,7 @@
   </div>
   
   <div class="a">
-      <p> Đây là trang web đầu tiên của tôi.</p>
+      <p> Đây là tài khoản Github của tôi.</p>
       <a href= " https://github.com/NguyenHoangAiMy " > Link Github </a>
   </div>
   
