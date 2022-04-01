@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <body>
   <title>MyNguyen</title>
@@ -15,10 +15,8 @@
   </div>
   
   <div class="a">
-  <p> Đây là trang web đầu tiên của tôi.</p>
-  <ul>
+      <p> Đây là trang web đầu tiên của tôi.</p>
       <a href= " https://github.com/NguyenHoangAiMy " > Link Github </a>
-  </ul>
   </div>
   
 </body>
