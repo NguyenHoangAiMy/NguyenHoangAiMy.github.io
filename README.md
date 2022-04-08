@@ -54,9 +54,9 @@
         	</table>
 			
    <h3>✌--------------------------------------------------✌</h3>
-   <a href="https://nguyenhoangaimy.github.io/">«</a>
-   <a href="#">1</a>
-   <a class="active" href="https://vi.wikipedia.org/wiki/Sinh_v%E1%BA%ADt"target="_blank">2</a>
+   <a href="#">«</a>
+   <a href="https://nguyenhoangaimy.github.io/">1</a>
+   <a class="active" href="https://vi.wikipedia.org/wiki/Sinh_v%E1%BA%ADt"target="_blank" >2</a>
    <a href="#">3</a>
    <a href="#">»</a>              
     </div>
