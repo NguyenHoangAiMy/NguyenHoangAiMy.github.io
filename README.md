@@ -56,7 +56,7 @@
    <h3>✌--------------------------------------------------✌</h3>
    <a href="#">«</a>
    <a href="#">1</a>
-   <a class="active" href="#">2</a>
+   <a class="active" href="https://vi.wikipedia.org/wiki/Sinh_v%E1%BA%ADt">2</a>
    <a href="#">3</a>
    <a href="#">»</a>              
     </div>
