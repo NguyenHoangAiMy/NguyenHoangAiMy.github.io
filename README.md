@@ -30,6 +30,6 @@
    <a class="active" href="#">2</a>
    <a href="#">3</a>
    <a href="#">»</a>
- </div>  
+    </div>  
 </body>
 </html>
