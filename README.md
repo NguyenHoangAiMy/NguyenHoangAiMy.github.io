@@ -6,7 +6,9 @@
   div.a{
   text-align: center;
   }
-    
+    body {
+    background-color: #ffe6ff;
+}
   </style>
 
   <div class="a">
