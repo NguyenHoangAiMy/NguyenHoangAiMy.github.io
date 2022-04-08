@@ -27,7 +27,7 @@
                 <h1><mark>Thời khóa biểu</mark><h1>
 		<table border="1">
             <tr>
-                <h3><th>THỨ 2</th>
+                <th>THỨ 2</th>
                 <th>thứ 3</th>
                 <th>THỨ 4</th>
                 <th>thứ 5</th>
@@ -48,7 +48,7 @@
                 <td>Tiếng anh CN</td>
                 <td>Cơ sở dữ liệu</td>
                 <td>Thiết kế quản trị website</td>
-              <td>Cấu trúc dữ liệu</td></h3>
+              <td>Cấu trúc dữ liệu</td>
             </tr>
         	</table>
 			
