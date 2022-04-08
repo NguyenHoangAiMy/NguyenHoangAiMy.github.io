@@ -24,10 +24,10 @@
               <h1>Giới thiệu 1 chút thông tin cơ bản!<h1>
 		    <li>Năm sinh: 2002</li>
 		    <li>Quê quán: Nha Trang, Khánh Hòa</li>
-		<h1>Thời khóa biểu<h1>
+                <h1><mark>Thời khóa biểu</mark><h1>
 		<table border="1">
             <tr>
-                <th>THỨ 2</th>
+                <h3><th>THỨ 2</th>
                 <th>thứ 3</th>
                 <th>THỨ 4</th>
                 <th>thứ 5</th>
@@ -48,14 +48,14 @@
                 <td>Tiếng anh CN</td>
                 <td>Cơ sở dữ liệu</td>
                 <td>Thiết kế quản trị website</td>
-              <td>Cấu trúc dữ liệu</td>
+              <td>Cấu trúc dữ liệu</td></h3>
             </tr>
         	</table>
 			
    <h3>✌--------------------------------------------------✌</h3>
    <a href="#">«</a>
-   <a href="https://nguyenhoangaimy.github.io/"><h1>1</h1></a>
-   <a class="active" href="https://vi.wikipedia.org/wiki/Sinh_v%E1%BA%ADt"><h1>2</h1></a>
+   <a href="https://nguyenhoangaimy.github.io/">1</a>
+   <a class="active" href="https://vi.wikipedia.org/wiki/Sinh_v%E1%BA%ADt">2</a>
    <a href="#">3</a>
    <a href="#">»</a>              
     </div>
