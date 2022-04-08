@@ -25,11 +25,13 @@
 		    <li>Quê quán: Nha Trang, Khánh Hòa</li>
       <p> Đây là tài khoản Github của tôi.</p>
       <a href= " https://github.com/NguyenHoangAiMy " > Link Github </a>
+    </div>
+	    <div class="a">
    <a href="#">«</a>
    <a href="#">1</a>
    <a class="active" href="#">2</a>
    <a href="#">3</a>
    <a href="#">»</a>
-    </div>  
+            </div>  
 </body>
 </html>
