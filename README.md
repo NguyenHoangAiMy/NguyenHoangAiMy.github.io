@@ -24,8 +24,8 @@
 		    <li>Năm sinh: 2002</li>
 		    <li>Quê quán: Nha Trang, Khánh Hòa</li>
                 <h1><mark>Thời khóa biểu</mark><h1>
-	</div>
-    <div class="a">
+  </div>
+  <div class="a">
 	    <table border="1">
             <tr>
                 <th>THỨ 2</th>
