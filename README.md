@@ -34,7 +34,7 @@
                 <th>thứ 7</th>
             </tr>
             <tr>
-                <td>Python</td>
+                <td><h3>Python</td>
                 <td>Python</td>
                 <td>Lắp ráp máy tính</td>
                 <td></td>
@@ -47,19 +47,19 @@
                 <td>Tiếng anh CN</td>
                 <td>Cơ sở dữ liệu</td>
                 <td>Thiết kế quản trị website</td>
-                <td>Cấu trúc dữ liệu</td>
+                <td>Cấu trúc dữ liệu<h3></td>
             </tr>
         	</table>
               <p> Đây là tài khoản Github của tôi.</p>
               <a href= " https://github.com/NguyenHoangAiMy " > Link Github </a>
     </div>
 	    <div class="a">
-   <h3>✌----------------------------------------------------------------------------------✌</h3>
+   <h3>✌---------------------------------------------------------------------------✌</h3>
    <a href="#">«</a>
    <a href="#">1</a>
    <a class="active" href="#">2</a>
    <a href="#">3</a>
    <a href="#">»</a>
-            </div>  
+      </div>  
 </body>
 </html>
