@@ -52,15 +52,13 @@
                 <td>Cấu trúc dữ liệu</td>
             </tr>
         	</table>
-              
-    </div>
-	<div class="a">
+			
    <h3>✌--------------------------------------------------✌</h3>
    <a href="#">«</a>
    <a href="#">1</a>
    <a class="active" href="#">2</a>
    <a href="#">3</a>
-   <a href="#">»</a>
-      </div>  
+   <a href="#">»</a>              
+    </div>
 </body>
 </html>
