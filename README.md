@@ -56,7 +56,7 @@
    <h1><a href="#">«</a>
    <a href="https://nguyenhoangaimy.github.io/">1</a>
    <a class="active" href="https://nguyenhoangaimy.github.io/page2.html">2</a>
-   <a href="#">3</a>
+   <a href="https://nguyenhoangaimy.github.io/page3.html">3</a>
    <a href="#">»</a></h1>             
 </div>
 </body>
