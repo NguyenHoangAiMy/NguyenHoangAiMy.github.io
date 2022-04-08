@@ -21,7 +21,7 @@
     <div class="a">
 	      <h1>Đến với nơi này bạn sẽ biết thêm những điều tôi quan tâm<h1>
         <font color="#ee0e13"><h1>Giới thiệu 1 chút thông tin cơ bản!<h1></font>
-		    <li>Năm sinh: <i> 2002<i> </li>
+		    <li>Năm sinh: 2002</li>
 		    <li>Quê quán: Nha Trang, Khánh Hòa</li>
 		<h1>Thời khóa biểu<h1>
 		<table border="1">
@@ -34,7 +34,7 @@
                 <th>thứ 7</th>
             </tr>
             <tr>
-                <td><h3>Python</td>
+                <td>Python</td>
                 <td>Python</td>
                 <td>Lắp ráp máy tính</td>
                 <td></td>
@@ -47,7 +47,7 @@
                 <td>Tiếng anh CN</td>
                 <td>Cơ sở dữ liệu</td>
                 <td>Thiết kế quản trị website</td>
-                <td>Cấu trúc dữ liệu<h3></td>
+                <td>Cấu trúc dữ liệu</td>
             </tr>
         	</table>
               <p> Đây là tài khoản Github của tôi.</p>
