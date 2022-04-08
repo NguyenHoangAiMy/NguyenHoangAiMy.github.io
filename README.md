@@ -17,7 +17,7 @@
                <h3>----------------------------------------------------------------------------------------</h3>
                <img src="https://i.pinimg.com/originals/88/2a/1d/882a1dd324fb7a2b36c02dcbda16485f.jpg">
               <p><h2> Đây là tài khoản Github của tôi.</h2></p>
-              <a href= " https://github.com/NguyenHoangAiMy " > Link Github </a>
+              <a href= " https://github.com/NguyenHoangAiMy " > <h3>Link Github</h3></a>
    </div>
     <div class="a">
 	      <h1>Đến với nơi này bạn sẽ biết thêm những điều tôi quan tâm<h1>
@@ -27,7 +27,7 @@
 		<h1>Thời khóa biểu<h1>
 		<table border="1">
             <tr>
-                <th>THỨ 2</th>
+                <h3><th>THỨ 2</th>
                 <th>thứ 3</th>
                 <th>THỨ 4</th>
                 <th>thứ 5</th>
@@ -48,7 +48,7 @@
                 <td>Tiếng anh CN</td>
                 <td>Cơ sở dữ liệu</td>
                 <td>Thiết kế quản trị website</td>
-                <td>Cấu trúc dữ liệu</td>
+              <td>Cấu trúc dữ liệu</td></h3>
             </tr>
         	</table>
 			
