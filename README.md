@@ -7,7 +7,7 @@
   text-align: center;
   }
     body {
-    background-color: #ffe6ff;
+    background-color: #ccf2ff;
 }
   </style>
 
