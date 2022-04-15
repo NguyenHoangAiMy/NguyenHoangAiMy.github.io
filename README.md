@@ -27,7 +27,7 @@
                 <h1><mark>Thời khóa biểu</mark><h1>
   </div>
   <div class="a">
-	    <table border="1">
+	    <table border="1" bgcolor="#faebd7" width="50%" height="50%">
             <tr>
                 <th>THỨ 2</th>
                 <th>thứ 3</th>
