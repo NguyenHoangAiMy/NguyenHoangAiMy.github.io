@@ -12,7 +12,7 @@
 
   <div class="a">
     <h1><marquee>Đừng đọc dòng chữ này</marquee></h1>
-    <h1><marquee direction="right"> Chúc một ngày tốt lành </marquee></h1>
+    <h1><marquee direction="right"> Chúc một ngày tốt lành 👍👍👍 </marquee></h1>
                <font color="#0000FF"><h1>Xin chào các bạn đã đến với website đầu tiên của tôi! </h1></font>
                <font color="#ee0e13"><h2>Tôi tên là Nguyễn Hoàng Ái Mỹ </h2></font>
                <h2>😀😀😀😀 </h2>
