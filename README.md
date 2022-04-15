@@ -24,7 +24,7 @@
 		    <li>Năm sinh: 2002</li>
 		    <li>Quê quán: Nha Trang, Khánh Hòa</li>
                 <h1><mark>Thời khóa biểu</mark><h1>
-  </div>
+
   <div class="a">
 	    <table border="1" bgcolor="#faebd7" width="50%" height="50%">
             <tr>
@@ -59,6 +59,6 @@
    <a class="active" href="https://nguyenhoangaimy.github.io/page2.html">2</a>
    <a href="https://nguyenhoangaimy.github.io/page3.html">3</a>
    <a href="https://nguyenhoangaimy.github.io/page2.html">»</a></h1>             
-
+</div>
 </body>
 </html>
