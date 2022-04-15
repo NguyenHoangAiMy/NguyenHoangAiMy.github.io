@@ -17,7 +17,7 @@
                <font color="#ee0e13"><h2>Tôi tên là Nguyễn Hoàng Ái Mỹ </h2></font>
                <h2>😀😀😀😀 </h2>
                <h3>----------------------------------------------------------------------------------------</h3>
-               <img src="https://i.pinimg.com/originals/88/2a/1d/882a1dd324fb7a2b36c02dcbda16485f.jpg">
+               <img src="https://media4.giphy.com/media/Sg4DwEJrCpGIU/giphy.gif?cid=ecf05e47zci7yi4a4xdgcndr1ul6logzjx672firle2w9n6x&rid=giphy.gif&ct=g">
               <p><h2> Đây là tài khoản Github của tôi.</h2></p>
               <a href= " https://github.com/NguyenHoangAiMy " > <h3>Link Github</h3></a>	
 	      <h1>Đến với nơi này bạn sẽ biết thêm những điều tôi quan tâm<h1>
