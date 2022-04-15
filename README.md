@@ -11,6 +11,14 @@
   </style>
 
   <div class="a">
+	  
+	    <table background="https://images.pexels.com/photos/1147124/pexels-photo-1147124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="100%" height="100%">
+<tr><td>  
+    <h1><font color="#f0f8ff"><marquee>Đừng đọc dòng chữ này</marquee></h1>
+  <h1><marquee direction="right"> Chúc một ngày tốt lành 👍👍👍 </marquee></font></h1>
+</td></tr>
+</table>
+	  
     <h1><marquee>Đừng đọc dòng chữ này</marquee></h1>
     <h1><marquee direction="right"> Chúc một ngày tốt lành 👍👍👍 </marquee></h1>
                <font color="#0000FF"><h1>Xin chào các bạn đã đến với website đầu tiên của tôi! </h1></font>
