@@ -10,7 +10,7 @@
 }
   </style>
  <div class="a">
-    <h1><marquee>Đừng đọc dòng chữ này</marquee></h1>
+    <h1><font color="#f0f8ff"><marquee><a href= "https://media4.giphy.com/media/EBJQRG6M99zSNhnhsW/giphy.gif?cid=ecf05e47vqhkev46emszx1la7ilgd9k0lkg2etwyhivgppr8&rid=giphy.gif&ct=g" > <h3>CLick here</h3></a></marquee></h1>
     <h1><marquee direction="right"> Chúc một ngày tốt lành 👍👍👍 </marquee></h1>
                <font color="#0000FF"><h1>Xin chào các bạn đã đến với website đầu tiên của tôi! </h1></font>
                <font color="#ee0e13"><h2>Tôi tên là Nguyễn Hoàng Ái Mỹ </h2></font>
