@@ -60,5 +60,3 @@
    <a href="https://nguyenhoangaimy.github.io/page3.html">3</a>
    <a href="https://nguyenhoangaimy.github.io/page2.html">»</a></h1>             
 </div>
-</body>
-</html>
