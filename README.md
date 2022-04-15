@@ -9,6 +9,7 @@
     background-color: #ccf2ff;
 }
   </style>
+ <div class="a">
     <h1><marquee>Đừng đọc dòng chữ này</marquee></h1>
     <h1><marquee direction="right"> Chúc một ngày tốt lành 👍👍👍 </marquee></h1>
                <font color="#0000FF"><h1>Xin chào các bạn đã đến với website đầu tiên của tôi! </h1></font>
