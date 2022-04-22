@@ -1,72 +1,36 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<style>
-body {margin:0;}
-
-div {
-  padding:10px
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #b3ecff;
-  position: fixed;
-  top: 0;
-  position: sticky;
-  width: 100%;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  color: white;
-  background-color: #db7093;
-  font-weight: bold;
-}
-
-.active {
-  background-color: #1ac6ff;
-  color: white;
-  font-weight: bold;
-}
-</style>
+	<meta charset="utf-8">
+	<title>
+		My website
+	</title>
 </head>
-<body>
-
-<div class="header">
-    <h2 style="text-align: center;">Website CSS</h2>
-    <p style="text-align: center;">Kiến thức - Tác phẩm - Hỏi đáp</p>
-</div>
-
-<ul>
-  <li><a class="active" href="https://quantrimang.com/">Trang chủ</a></li>
-  <li><a href="https://quantrimang.com/cong-nghe">Tác phẩm</a></li>
-  <li><a href="https://quantrimang.com/khoa-hoc">Âm nhạc</a></li>
-  <li><a href="https://quantrimang.com/cuoc-song">Ẩm thực</a></li>
-  <li><a href="https://quantrimang.com/lang-cong-nghe">Họa sĩ yêu thích</a></li>
-  <li><a href="https://quantrimang.com/cuoc-song">Anime-Manga</a></li>
-</ul>
-
-<div>
-<div class="header">
-    <h1 style="text-align: center;"><font color="#330080">Xin chào các bạn đã đến với website đầu tiên của tôi!</font></h1>
-    <h3 style="text-align: center;">Nơi trưng bày những thứ tôi yêu thích, quan tâm</h3>
-    <center><img src="https://media4.giphy.com/media/Sg4DwEJrCpGIU/giphy.gif?cid=ecf05e47zci7yi4a4xdgcndr1ul6logzjx672firle2w9n6x&rid=giphy.gif&ct=g">
-              <p><h2> Đây là tài khoản Github của tôi.</h2></p>
-              <a href= " https://github.com/NguyenHoangAiMy " > <h3>Link Github</h3></a>    
-    <h2>Đến với nơi này bạn sẽ biết thêm những điều tôi quan tâm<h2>    
-    <h2><marquee direction="right"> Chúc một ngày tốt lành 👍👍👍 </marquee></h2>
-
+<body background="https://images.pexels.com/photos/1146134/pexels-photo-1146134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" link="#f2f2f2" alink="#80d4ff" vlink="f2f2f2">
+	<br />
+	<h3 align="center">
+		<font face="Lato" color="#f2f2f2"size="6">MỸ NGUYỄN</font>
+		<img align="center" src="https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/270082422_3038447389818938_3446986941710886589_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=174925&_nc_ohc=YUoIfUTvrIIAX-qGDY_&_nc_ht=scontent.fdad1-2.fna&oh=00_AT_JuGVQKYmSeMPLrqTjxtCTj9GHCdjYqeUf9rKIhAP0Sw&oe=625497E6"width="50px">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<font face="cinzel" size="4">
+			<a href="#">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#">ARTWWORK</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#">MUSIC</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#">FOOD</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#">ARTIST</a>
+		</font> 
+	</h3>
+	<br /><br /><br /><br /><br /><br /><br /><br />
+	<h1 align="center">
+		<font face="Lato" color="#80d4ff" size="7">
+			MY BEAUTIFUL AND PEACEFUL SMALL HOUSE
+		</font>
+	</h1>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<h3 align="center">
+		<a href="#">
+			<font face="cinzel" color="#fff">CLICK HERE AND START</font>
+		</a>
+	</h3>
+</body>
+</html>
