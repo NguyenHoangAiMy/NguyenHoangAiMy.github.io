@@ -14,8 +14,8 @@
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		<font face="cinzel" size="4">
 			<a href="#">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
-			<a href="#">ARTWWORK</a>&nbsp;&nbsp;&nbsp;&nbsp;
-			<a href="#">MUSIC</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="https://nguyenhoangaimy.github.io/page2.html">ARTWWORK</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="fhttps://nguyenhoangaimy.github.io/page3.html">MUSIC</a>&nbsp;&nbsp;&nbsp;&nbsp;
 			<a href="#">FOOD</a>&nbsp;&nbsp;&nbsp;&nbsp;
 			<a href="#">ARTIST</a>
 		</font> 
