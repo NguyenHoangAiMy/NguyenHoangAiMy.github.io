@@ -32,5 +32,6 @@
 			<font face="cinzel" color="#fff">CLICK HERE AND START</font>
 		</a>
 	</h3>
+	<center><img src="https://media0.giphy.com/media/ES4Vcv8zWfIt2/giphy.gif?cid=ecf05e4719ka3d1qncaz2pgv74cr7k2xmk366fmkn7od05x8&rid=giphy.gif&ct=g">
 </body>
 </html>
