@@ -1,62 +1,75 @@
+<!DOCTYPE html>
 <html>
-<body>  
-	
-  <style>    
-  div.a{
-  text-align: center;
-  }
-    body {
-    background-color: #ccf2ff;
-}
-  </style>
- <div class="a">
-    <h1><marquee><a href= "https://media4.giphy.com/media/EBJQRG6M99zSNhnhsW/giphy.gif?cid=ecf05e47vqhkev46emszx1la7ilgd9k0lkg2etwyhivgppr8&rid=giphy.gif&ct=g" > <h3>CLick here</h3></a></marquee></h1>
-    <h1><marquee direction="right"> Chúc một ngày tốt lành 👍👍👍 </marquee></h1>
-               <font color="#0000FF"><h1>Xin chào các bạn đã đến với website đầu tiên của tôi! </h1></font>
-               <font color="#ee0e13"><h2>Tôi tên là Nguyễn Hoàng Ái Mỹ </h2></font>
-               <h2>😀😀😀😀 </h2>
-               <h3>----------------------------------------------------------------------------------------</h3>
-               <img src="https://media4.giphy.com/media/Sg4DwEJrCpGIU/giphy.gif?cid=ecf05e47zci7yi4a4xdgcndr1ul6logzjx672firle2w9n6x&rid=giphy.gif&ct=g">
-              <p><h2> Đây là tài khoản Github của tôi.</h2></p>
-              <a href= " https://github.com/NguyenHoangAiMy " > <h3>Link Github</h3></a>	
-	      <h1>Đến với nơi này bạn sẽ biết thêm những điều tôi quan tâm<h1>
-              <h1>Giới thiệu 1 chút thông tin cơ bản!<h1>
-		    <li>Năm sinh: 2002</li>
-		    <li>Quê quán: Nha Trang, Khánh Hòa</li>
-                <h1><mark>Thời khóa biểu</mark><h1>
+<head>
+<style>
+body {margin:0;}
 
-  <div class="a">
-	    <table border="1" bgcolor="#faebd7" width="50%" height="50%">
-            <tr>
-                <th>THỨ 2</th>
-                <th>thứ 3</th>
-                <th>THỨ 4</th>
-                <th>thứ 5</th>
-                <th>THỨ 6</th>
-                <th>thứ 7</th>
-            </tr>
-            <tr>
-                <td>Python</td>
-                <td>Python</td>
-                <td>Lắp ráp máy tính</td>
-                <td></td>
-                <td>Thiết kế quản trị website</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>Thể dục</td>
-                <td>Tiếng anh CN</td>
-                <td>Cơ sở dữ liệu</td>
-                <td>Thiết kế quản trị website</td>
-              <td>Cấu trúc dữ liệu</td>
-            </tr>
-        	</table>
-			
-   <h3>✌--------------------------------------------------✌</h3>
-   <h1><a href="#">«</a>
-   <a href="https://nguyenhoangaimy.github.io/">1</a>
-   <a class="active" href="https://nguyenhoangaimy.github.io/page2.html">2</a>
-   <a href="https://nguyenhoangaimy.github.io/page3.html">3</a>
-   <a href="https://nguyenhoangaimy.github.io/page2.html">»</a></h1>             
+div {
+  padding:10px
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b3ecff;
+  position: fixed;
+  top: 0;
+  position: sticky;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color: white;
+  background-color: #db7093;
+  font-weight: bold;
+}
+
+.active {
+  background-color: #1ac6ff;
+  color: white;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h2 style="text-align: center;">Website CSS</h2>
+    <p style="text-align: center;">Kiến thức - Tác phẩm - Hỏi đáp</p>
 </div>
+
+<ul>
+  <li><a class="active" href="https://quantrimang.com/">Trang chủ</a></li>
+  <li><a href="https://quantrimang.com/cong-nghe">Tác phẩm</a></li>
+  <li><a href="https://quantrimang.com/khoa-hoc">Âm nhạc</a></li>
+  <li><a href="https://quantrimang.com/cuoc-song">Ẩm thực</a></li>
+  <li><a href="https://quantrimang.com/lang-cong-nghe">Họa sĩ yêu thích</a></li>
+  <li><a href="https://quantrimang.com/cuoc-song">Anime-Manga</a></li>
+</ul>
+
+<div>
+<div class="header">
+    <h1 style="text-align: center;"><font color="#330080">Xin chào các bạn đã đến với website đầu tiên của tôi!</font></h1>
+    <h3 style="text-align: center;">Nơi trưng bày những thứ tôi yêu thích, quan tâm</h3>
+    <center><img src="https://media4.giphy.com/media/Sg4DwEJrCpGIU/giphy.gif?cid=ecf05e47zci7yi4a4xdgcndr1ul6logzjx672firle2w9n6x&rid=giphy.gif&ct=g">
+              <p><h2> Đây là tài khoản Github của tôi.</h2></p>
+              <a href= " https://github.com/NguyenHoangAiMy " > <h3>Link Github</h3></a>    
+     <h2>Đến với nơi này bạn sẽ biết thêm những điều tôi quan tâm<h2>    
+</div>
+    <h2><marquee direction="right"> Chúc một ngày tốt lành 👍👍👍 </marquee></h2>
+</body>
+</html>
