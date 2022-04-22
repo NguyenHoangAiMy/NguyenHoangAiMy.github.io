@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -68,8 +67,6 @@ li a:hover:not(.active) {
     <center><img src="https://media4.giphy.com/media/Sg4DwEJrCpGIU/giphy.gif?cid=ecf05e47zci7yi4a4xdgcndr1ul6logzjx672firle2w9n6x&rid=giphy.gif&ct=g">
               <p><h2> Đây là tài khoản Github của tôi.</h2></p>
               <a href= " https://github.com/NguyenHoangAiMy " > <h3>Link Github</h3></a>    
-     <h2>Đến với nơi này bạn sẽ biết thêm những điều tôi quan tâm<h2>    
-</div>
+    <h2>Đến với nơi này bạn sẽ biết thêm những điều tôi quan tâm<h2>    
     <h2><marquee direction="right"> Chúc một ngày tốt lành 👍👍👍 </marquee></h2>
-</body>
-</html>
+
