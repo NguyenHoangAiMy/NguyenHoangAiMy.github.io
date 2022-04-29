@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <head>
 	<title>MỸ NGUYỄN</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -102,4 +100,4 @@
          <!--Kết Thúc Nội Dung Liên Hệ-->
      </div>
  </footer>
-</html>
+
