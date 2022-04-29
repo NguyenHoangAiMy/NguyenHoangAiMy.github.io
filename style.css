@@ -79,3 +79,21 @@ ul li.active a{
 	background-color: #fff;
 	color: #000;
 }
+
+footer{
+     position: relative;
+     width: 95%;
+     height: auto;
+     padding: 50px 50px;
+     background: #111;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+footer .container{
+	color: #fff;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     flex-direction: row;
+ }
