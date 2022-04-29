@@ -1,37 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="utf-8">
-	<title>
-		My website
-	</title>
+	<title>MỸ NGUYỄN</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body background="https://images.pexels.com/photos/1146134/pexels-photo-1146134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" link="#f2f2f2" alink="#80d4ff" vlink="f2f2f2">
-	<br />
-	<h3 align="center">
-		<font face="Lato" color="#f2f2f2"size="6">MỸ NGUYỄN</font>
-		<img align="center" src="https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/270082422_3038447389818938_3446986941710886589_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=174925&_nc_ohc=YUoIfUTvrIIAX-qGDY_&_nc_ht=scontent.fdad1-2.fna&oh=00_AT_JuGVQKYmSeMPLrqTjxtCTj9GHCdjYqeUf9rKIhAP0Sw&oe=625497E6"width="50px">
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		<font face="cinzel" size="5">
-			<a href="https://nguyenhoangaimy.github.io/home.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
-			<a href="https://nguyenhoangaimy.github.io/ARTWORK.html">ARTWWORK</a>&nbsp;&nbsp;&nbsp;&nbsp;
-			<a href="https://nguyenhoangaimy.github.io/MUSIC.html">MUSIC</a>&nbsp;&nbsp;&nbsp;&nbsp;
-			<a href="#">FOOD</a>&nbsp;&nbsp;&nbsp;&nbsp;
-			<a href="#">ARTIST</a>
-		</font> 
-	</h3>
-	<br /><br /><br /><br /><br /><br /><br /><br />
-	<h1 align="center">
-		<font face="Lato" color="#80d4ff" size="7">
-			MY BEAUTIFUL AND PEACEFUL SMALL HOUSE
-		</font>
-	</h1>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<h3 align="center">
-		<a href="#">
-			<font face="cinzel" color="#fff">CLICK HERE AND START</font>
-		</a>
-	</h3>
-	<center><img src="https://media0.giphy.com/media/ES4Vcv8zWfIt2/giphy.gif?cid=ecf05e4719ka3d1qncaz2pgv74cr7k2xmk366fmkn7od05x8&rid=giphy.gif&ct=g">
+<body>
+	<header>
+		<div class="main">
+			<div class="logo">
+				<img src="drawme22.jpg">
+			</div>
+
+			<ul>
+				<li class="active"><a href="https://nguyenhoangaimy.github.io/universe.html">HOME</a></li>
+				<li><a href="https://nguyenhoangaimy.github.io/cactientrinhvavunolon.html">ARTWWORK</a></li>
+				<li><a href="https://vi.wikipedia.org/wiki/V%C5%A9_tr%E1%BB%A5#T%C3%ADnh_ch%E1%BA%A5t">MUSIC</a></li>
+				<li><a href="https://nguyenhoangaimy.github.io/dinhnghiavutru.html">FOOD</a></li>
+			</ul>
+		</div>
+
+		<div class="title">
+			<h1>MY NGUYEN</h1>
+		</div>
+<div id="cover">
+  <form method="get" action="">
+    <div class="tb">
+      <div class="td">
+      	<input type="text" placeholder="Search" required>
+      </div>
+      <div class="td" id="s-cover">
+        <button type="submit">
+          <div id="s-circle"></div>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+		<div class="button">
+			<a href="https://vi.wikipedia.org/wiki/V%C5%A9_tr%E1%BB%A5#:~:text=V%C5%A9%20tr%E1%BB%A5%20bao%20g%E1%BB%93m%20t%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20v%E1%BA%ADt,n%E1%BB%95%20Big%20Bang%20kho%E1%BA%A3ng%2013%2C8%20t%E1%BB%B7%20n%C4%83m%20tr%C6%B0%E1%BB%9Bc." class="btn">information</a>
+		</div>
+	</header>
 </body>
+<footer>
+     <div class="container">
+         <!--Bắt Đầu Nội Dung Giới Thiệu-->
+         <div class="noi-dung about">
+             <h2>ABOUT ME</h2>
+             <ul class="social-icon">
+                 <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                 <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                 <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                 <li><a href=""><i class="fa fa-youtube"></i></a></li>
+             </ul>
+         </div>
+         <!--Kết Thúc Nội Dung Giới Thiệu-->
+         <!--Bắt Đầu Nội Dung Đường Dẫn-->
+         <div class="noi-dung links">
+             <h2>LINK</h2>
+             <ul>
+                 <li><a href="#">HOME</a></li>
+                 <li><a href="#">INFOMATION</a></li>
+                 <li><a href="#">Service</a></li>
+                 <li><a href="#">Policy Conditions</a></li>
+             </ul>
+         </div>
+         <!--Kết Thúc Nội Dung Đường Dẫn-->
+         <!--Bắt Đâu Nội Dung Liên Hệ-->
+         <div class="noi-dung contact">
+             <h2>Contact Info</h2>
+             <ul class="info">
+                 <li>
+                     <span><i class="fa fa-map-marker"></i></span>
+                     <span>##########<br />
+                         Nha Trang, Khánh Hòa</span>
+                 </li>
+                 <li>
+                     <span><i class="fa fa-phone"></i></span>
+                     <p><a href="#">+84 ### ### ###</a>
+                         <br />
+                         <a href="#">+84 ### ### ###</a></p>
+                 </li>
+                 <li>
+                     <span><i class="fa fa-envelope"></i></span>
+                     <p><a href="#">nguyenhoangaimy182@gmail.com</a></p>
+                </li>
+                 <li>
+                     <form class="form">
+                         <input type="email" class="form__field" placeholder="Đăng Ký Subscribe Email" />
+                         <button type="button" class="btn btn--primary  uppercase">Gửi</button>
+                     </form>
+                 </li>
+             </ul>
+         </div>
+         <!--Kết Thúc Nội Dung Liên Hệ-->
+     </div>
+ </footer>
 </html>
