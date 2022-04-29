@@ -11,7 +11,8 @@ header{
 	background-position: center;
 }
 ul{
-	float: right;
+	position: fixed;
+	right: 250px;
 	list-style-type: none;
 	margin-top: 45px;
 }
@@ -38,8 +39,10 @@ ul li.active a{
 }
 
 .logo img{
-	float: left;
-	width: 170px;
+	position: fixed;
+	top: 3%;
+	left: 20px;
+	width: 100px;
 	height: auto;
 }
 
@@ -56,13 +59,18 @@ ul li.active a{
 }
 
 .title h1{
+	border: 2px solid #fff;
+	padding: 10px 30px;
 	color: #fff;
-	font-size: 70px;
+	text-decoration: none;
+	transition: 0.6s ease;
+	color: #fff;
+	font-size: 100px;
 }
 
 .button{
 	position: absolute;
-	top: 60%;
+	top: 70%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
@@ -79,6 +87,7 @@ ul li.active a{
 	background-color: #fff;
 	color: #000;
 }
+
 
 footer{
      position: relative;
@@ -120,4 +129,154 @@ footer  .container .noi-dung.about{
  }
 footer .container .noi-dung.about p{
      color: #999;
+ }
+
+ .tb {
+  display: table;
+  width: 100%;
+}
+
+.td {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+input,
+button {
+  color: #fff;
+  font-family: Nunito;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+#cover {
+  position: fixed;
+  top: 13.5%;
+  right: 35px ;
+  width: 250px;
+  padding: 10px;
+  margin: -83px auto 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px #ffffff, 0 0 0 10px #ffffffeb;
+  transform: scale(0.35);
+}
+
+form {
+  height: 50px;
+}
+
+input[type="text"] {
+  width: 90%;
+  height: 50px;
+  font-size: 50px;
+  line-height: 1;
+}
+
+footer{
+	background-image: url(Untitled-2.jpg);
+     position: relative;
+     width: 87.35%;
+     height: auto;
+     padding: 50px 100px;
+     background: #111;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+footer .container{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     flex-direction: row;
+ }
+/*Thiết Lập Cho Thành Phần Nội Dung Giới Thiệu*/
+ footer .container .noi-dung{
+     margin-right: 30px;
+ }
+footer  .container .noi-dung.about{
+     width:40%;
+ }
+ footer .container .noi-dung.about h2{
+     position: relative;
+     color: #fff;
+     font-weight: 500;
+     margin-bottom: 15px;
+ }
+ footer .container .noi-dung.about h2:before{
+     content: '';
+     position: absolute;
+     bottom: -5px;
+     left: 0;
+     width: 50px;
+     height: 2px;
+     background: #f00;
+ }
+footer .container .noi-dung.about p{
+     color: #999;
+ }
+ /*Thiết Lập Cho Thành Phần Icon Mạng Xã Hội*/
+ .social-icon{
+     margin-top: 20px;
+     display: flex;
+ }
+.social-icon li {
+     list-style: none;
+ }
+ .social-icon li a{
+     display: inline-block;
+     width: 40px;
+     height: 40px;
+     background: #222;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-right: 10px;
+     text-decoration: none;
+     border-radius: 4px;
+ }
+.social-icon li a:hover{
+     background: #f00;
+ }
+.social-icon li a .fa{
+     color: #fff;
+     font-size: 20px;
+ }
+.links h2{
+     position: relative;
+     color: #fff;
+     font-weight: 500;
+     margin-bottom: 15px;
+ }
+.links h2{
+     position: relative;
+     color: #fff;
+     font-weight: 500;
+     margin-bottom: 15px;
+ }
+.links h2::before{
+     content: '';
+     position: absolute;
+     bottom: -5px;
+     left: 0;
+     width: 50px;
+     height: 2px;
+     background: #f00;
+ }
+.links{
+    position: relative;
+    width: 25%;
+ }
+ .links ul li{
+     list-style: none;
+ }
+ .links ul li a{
+     color: #999;
+     text-decoration: none;
+     margin-bottom: 10px;
+     display: inline-block;
+ }
+.links ul li a:hover{
+     color: #fff;
  }
