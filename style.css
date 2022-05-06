@@ -3,54 +3,42 @@
 	padding: 0;
 	font-family: Century Gothic;
 }
-
 header{
-	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(background.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
 }
-ul{
-	position: fixed;
-	right: 250px;
-	list-style-type: none;
-	margin-top: 45px;
+.menu {
+  position: relative;
+  overflow: hidden;
+  background-color: #333;
 }
-
-ul li{
-	display: inline-block;
+.menu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
 }
-
-ul li a{
-	text-decoration: none;
-	color: #fff;
-	padding: 5px 20px;
-	border: 1px solid transparent;
-	transition: 0.6s ease;
+.menu a:hover {
+  background-color: #fff;
+  color: black;
 }
-
-ul li a:hover{
-	background-color: #fff;
-	color: #000;
+.menu a.active {
+  background-color: #6782ed;
+  border-right: 1px inset #6cd3f5;
+  color: white;
 }
-ul li.active a{
-	background-color: #fff;
-	color: #000;
-}
-
 .logo img{
+    border: 4px groove #fff;
 	position: fixed;
-	top: 3%;
-	left: 20px;
-	width: 100px;
+	top: 0px;
+	right: 0px;
+	width: 56px;
 	height: auto;
 }
-
-.main{
-	max-width: 1200px;
-	margin: auto;
-}
-
 .title{
 	position: absolute;
 	top: 50%;
@@ -59,7 +47,8 @@ ul li.active a{
 }
 
 .title h1{
-	border: 2px solid #fff;
+    font-family: Times New Roman Georgia ;
+	border: 5px solid #fff;
 	padding: 10px 30px;
 	color: #fff;
 	text-decoration: none;
@@ -67,215 +56,52 @@ ul li.active a{
 	color: #fff;
 	font-size: 100px;
 }
-
 .button{
 	position: absolute;
 	top: 70%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
-
 .btn{
-	border: 1px solid #fff;
+	border: 5px double #fff;
 	padding: 10px 30px;
 	color: #fff;
 	text-decoration: none;
 	transition: 0.6s ease;
 }
-
 .btn:hover{
 	background-color: #fff;
 	color: #000;
 }
-
-
-footer{
-     position: relative;
-     width: 95%;
-     height: auto;
-     padding: 50px 50px;
-     background: #111;
-     display: flex;
-     justify-content: space-between;
-     flex-wrap: wrap;
- }
-footer .container{
-	color: #fff;
-     display: flex;
-     justify-content: space-between;
-     flex-wrap: wrap;
-     flex-direction: row;
- }
- footer .container .noi-dung{
-     margin-right: 30px;
- }
-footer  .container .noi-dung.about{
-     width:40%;
- }
- footer .container .noi-dung.about h2{
-     position: relative;
-     color: #fff;
-     font-weight: 500;
-     margin-bottom: 15px;
- }
- footer .container .noi-dung.about h2:before{
-     content: '';
-     position: absolute;
-     bottom: -5px;
-     left: 0;
-     width: 50px;
-     height: 2px;
-     background: #f00;
- }
-footer .container .noi-dung.about p{
-     color: #999;
- }
-
- .tb {
-  display: table;
-  width: 100%;
+.search{
+  position:fixed;
+  display:inline-block;
+  color:white;
+  padding:24px 16px;
 }
-
-.td {
-  display: table-cell;
-  vertical-align: middle;
+.search-bar{
+  position:absolute;
+  display:none;
+  left:0;
+  padding:24px 0px;
 }
-
-input,
-button {
-  color: #fff;
-  font-family: Nunito;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  background-color: transparent;
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #6cd3f5;
+    border-radius: 4px;
+    font-size: 18px;
+    outline:none;
+    padding: 12px 14px;
+    transition: width 0.4s ease-in-out;
 }
-
-#cover {
-  position: fixed;
-  top: 10%;
-  right: 35px ;
-  width: 250px;
-  padding: 10px;
-  margin: -83px auto 0 auto;
-  border-radius: 20px;
-  box-shadow: 0 10px 40px #ffffff, 0 0 0 10px #ffffffeb;
-  transform: scale(0.35);
+.search:hover{
+  background-color:#fff;
+  color:black;
 }
-
-form {
-  height: 50px;
+.search:hover .search-bar{
+  display:block;
 }
-
-input[type="text"] {
-  width: 90%;
-  height: 50px;
-  font-size: 50px;
-  line-height: 1;
-}
-
-footer{
-     position: relative;
-     width: 100%;
-     height: auto;
-     padding: 50px 100px;
-     background: #111;
-     display: flex;
-     justify-content: space-between;
-     flex-wrap: wrap;
- }
-footer .container{
-     display: flex;
-     justify-content: space-between;
-     flex-wrap: wrap;
-     flex-direction: row;
- }
-/*Thiết Lập Cho Thành Phần Nội Dung Giới Thiệu*/
- footer .container .noi-dung{
-     margin-right: 30px;
- }
-footer  .container .noi-dung.about{
-     width:40%;
- }
- footer .container .noi-dung.about h2{
-     position: relative;
-     color: #fff;
-     font-weight: 500;
-     margin-bottom: 15px;
- }
- footer .container .noi-dung.about h2:before{
-     content: '';
-     position: absolute;
-     bottom: -5px;
-     left: 0;
-     width: 50px;
-     height: 2px;
-     background: #f00;
- }
-footer .container .noi-dung.about p{
-     color: #999;
- }
- /*Thiết Lập Cho Thành Phần Icon Mạng Xã Hội*/
- .social-icon{
-     margin-top: 20px;
-     display: flex;
- }
-.social-icon li {
-     list-style: none;
- }
- .social-icon li a{
-     display: inline-block;
-     width: 40px;
-     height: 40px;
-     background: #222;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin-right: 10px;
-     text-decoration: none;
-     border-radius: 4px;
- }
-.social-icon li a:hover{
-     background: #f00;
- }
-.social-icon li a .fa{
-     color: #fff;
-     font-size: 20px;
- }
-.links h2{
-     position: relative;
-     color: #fff;
-     font-weight: 500;
-     margin-bottom: 15px;
- }
-.links h2{
-     position: relative;
-     color: #fff;
-     font-weight: 500;
-     margin-bottom: 15px;
- }
-.links h2::before{
-     content: '';
-     position: absolute;
-     bottom: -5px;
-     left: 0;
-     width: 50px;
-     height: 2px;
-     background: #f00;
- }
-.links{
-    position: relative;
-    width: 25%;
- }
- .links ul li{
-     list-style: none;
- }
- .links ul li a{
-     color: #999;
-     text-decoration: none;
-     margin-bottom: 10px;
-     display: inline-block;
- }
-.links ul li a:hover{
-     color: #fff;
- }
+form input[type="text"]:focus{
+  width:400px;
+  background-color:#fff;
