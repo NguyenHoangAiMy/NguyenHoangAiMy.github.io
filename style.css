@@ -74,7 +74,7 @@ header{
 	color: #000;
 }
 .search{
-  position:relative;
+  position:fixed;
   display:inline-block;
   color:white;
   padding:24px 16px;
@@ -106,7 +106,6 @@ form input[type="text"]:focus{
   width:400px;
   background-color:#fff;
 }
-
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 
 * {
