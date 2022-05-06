@@ -39,7 +39,7 @@ header{
 	height: auto;
 }
 .search{
-  position:fixed;
+  position:relative;
   display:inline-block;
   color:white;
   padding:24px 16px;
