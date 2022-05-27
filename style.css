@@ -1,19 +1,19 @@
 *{
-	margin: 0;
-	padding: 0;
-	font-family: Century Gothic;
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
 }
 header{
-	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(background.jpg);
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(background.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 .menu {
   position: relative;
   overflow: hidden;
   background-color: #333;
-  border-bottom: 1px inset #2ab593;
+  border-bottom: 1px inset #fff;
 }
 .menu a {
   float: left;
@@ -29,84 +29,50 @@ header{
 }
 .menu a.active {
   background-color: #6782ed;
-  border-right: 1px inset #2ab593;
-  border-bottom: 1px inset #2ab593;
+  border-right: 1px inset #fff;
   color: white;
 }
 .logo img{
     border: 4px groove #fff;
-	position: fixed;
-	top: 0px;
-	right: 0px;
-	width: 56px;
-	height: auto;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 56px;
+  height: auto;
 }
 .title{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 .title h1{
     font-family: Times New Roman Georgia ;
-	border: 5px solid #fff;
-	padding: 10px 30px;
-	color: #fff;
-	text-decoration: none;
-	transition: 0.6s ease;
-	color: #fff;
-	font-size: 100px;
+  border: 5px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+  color: #fff;
+  font-size: 100px;
 }
 .button{
-	position: absolute;
-	top: 70%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 .btn{
-	border: 5px double #fff;
-	padding: 10px 30px;
-	color: #fff;
-	text-decoration: none;
-	transition: 0.6s ease;
+  border: 5px double #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
 }
 .btn:hover{
-	background-color: #fff;
-	color: #000;
-}
-.search{
-  position:fixed;
-  display:inline-block;
-  color:white;
-  padding:24px 16px;
-}
-.search-bar{
-  position:absolute;
-  display:none;
-  left:0;
-  padding:24px 0px;
-}
-input[type=text] {
-    width: 130px;
-    box-sizing: border-box;
-    border: 2px solid #6cd3f5;
-    border-radius: 4px;
-    font-size: 18px;
-    outline:none;
-    padding: 12px 14px;
-    transition: width 0.4s ease-in-out;
-}
-.search:hover{
-  background-color:#fff;
-  color:black;
-}
-.search:hover .search-bar{
-  display:block;
-}
-form input[type="text"]:focus{
-  width:400px;
-  background-color:#fff;
+  background-color: #fff;
+  color: #000;
 }
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 
