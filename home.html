@@ -1,54 +1,68 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-    <title>MỸ NGUYỄN</title>
-    <link rel="stylesheet" type="text/css" href="stylehome.css">
     <meta charset="UTF-8">
+    <title>Trang chủ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylehome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<header>
-    <div class="menu">
-        <div class="logo">
-            <img src="drawme22.jpg">
+    <section>
+        <img alt='drawme22' src="drawme22.png" class="drawme">
+             
+        <header>
+            <a href="#" class="logo">Webstie Của Tôi</a>
+            <ul id="menuList">
+                <li><a href="#" style="--i:1;" class="active">Trang Chủ</a></li>
+                <li><a href="#" style="--i:2;">Tác Phẩm</a></li>
+                <li><a href="#" style="--i:3;">ÂM Nhạc</a></li>
+                <li><a href="#" style="--i:4;">Dự Án</a></li>   
+            </ul>
+            <img src="menu.png" class="menu_icon" onclick="toggleMenu()">
+        </header>
+        
+        <div class="content">
+            <div class="textbox">
+                <h2>Chào Mừng Đến Trang Web Của Tôi</h2>
+                <p>Nơi tôi lưu trữ những tác phẩm, các dự án. Chia sẽ những bài nhạc hay, những món ăn yêu thích</p>
+                <a href="#">Thông Tin Cá Nhân</a>
+            </div>
         </div>
-        <div class="topnav-right">
-            <a href="https://nguyenhoangaimy.github.io/home.html" class="active">Trang chủ</a>
-            <a href="https://nguyenhoangaimy.github.io/artwwork.html">Tác Phẩm</a>
-            <a href="https://nguyenhoangaimy.github.io/music.html">ÂM Nhạc</a>
-            <a href="https://nguyenhoangaimy.github.io/favo.artist.html">Thư Viện Ảnh</a>
+    </section>
+
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function toggleMenu() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "100%";
+            }
+            else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+    <footer class="footer-distributed">
+        <div class="footer-right">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/NguyenHoangAiMy"><i class="fa fa-github"></i></a>
         </div>
-    </div>
-    <div class="title">
-        <h1>MY NGUYEN</h1>
-    </div>
-    <div class="button">
-        <a href="https://nguyenhoangaimy.github.io/portfolio.html" class="btn">Thông Tin</a>
-    </div>
-</header>
- <footer class="footer-distributed">
-    <div class="footer-right">
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <a href="https://github.com/NguyenHoangAiMy"><i class="fa fa-github"></i></a>
-    </div>
-    <div class="footer-left">
-        <p class="footer-links">
-            <a class="link-1" href="https://nguyenhoangaimy.github.io/home.html">Trang Chủ</a>
-            <a href="https://nguyenhoangaimy.github.io/artwwork.html">Tác Phẩm</a>
-            <a href="https://nguyenhoangaimy.github.io/music.html">Music</a>
-            <a href="https://nguyenhoangaimy.github.io/favo.artist.html">Thư Viện Ảnh</a>
-            <a href="#">Liên Hệ</a>
-        </p>
-        <p>Được tạo bở Mỹ Nguyễn &copy; 2022</p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <p>background by WLOP</p>
-    </div>
-</footer>
+        <div class="footer-left">
+            <p class="footer-links">
+                <a class="link-1" href="https://nguyenhoangaimy.github.io/home.html">Trang Chủ</a>
+                <a href="https://nguyenhoangaimy.github.io/artwwork.html">Tác Phẩm</a>
+                <a href="https://nguyenhoangaimy.github.io/music.html">Âm Nhạc</a>
+                <a href="https://nguyenhoangaimy.github.io/favo.artist.html">Dự Án</a>
+                <a href="#">Thông Tin</a>
+            </p>
+            <p>Được tạo bở Mỹ Nguyễn &copy; 2022</p>
+        </div>
+    </footer>
 </body>
 </html>

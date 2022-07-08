@@ -1,74 +1,89 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-    <title>ARTWORK</title>
-    <link rel="stylesheet" type="text/css" href="style2.css">
     <meta charset="UTF-8">
+    <title>Tác Phẩm</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style2.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<header>
-    <div class="menu">
-        <div class="logo">
-            <img src="drawme22.jpg">
-        </div>
-        <div class="topnav-right">
-            <a href="https://nguyenhoangaimy.github.io/home.html">Trang chủ</a>
-            <a href="https://nguyenhoangaimy.github.io/artwwork.html" class="active">Tác Phẩm</a>
-            <a href="https://nguyenhoangaimy.github.io/music.html">ÂM Nhạc</a>
-            <a href="https://nguyenhoangaimy.github.io/favo.artist.html">Thư Viện Ảnh</a>
-        </div>
-    </div>
-</header>
-    <div class="photo-album">
-        
-        <h1><span><abbr title="and" class="amp">&amp;</abbr>Những Khoảng Khắc Đẹp</span></h1>
-        
-        <a href="#" class="large polaroid img1"><img src="oc 2.jpg" alt="">two-colored hair boy</a>
-        <a href="#/" class="polaroid img2"><img src="AW2.jpg" alt="">Beastman is upset</a>
-        <a href="#" class="AW3.jpg" alt="">Ferntastic</a>
-        
-        <a href="#" class="medium polaroid img4"><img src="oc 4.jpg" alt="">Vampires immersed in blood</a>
-        
-        <a href="#" class="polaroid img5"><img src="Untitled-2.jpg" alt="">sky and grass</a>
-        
-        
-        <a href="#" class="polaroid img6"><img src="oc 2.jpg" alt="">two-colored hair boy</a>
-        
-        <a href="#" class="polaroid img7"><img src="oc 2.jpg" alt="">two-colored hair boy</a>
-        <a href="#" class="small polaroid img8"><img src="AW4.jpg" alt="">clothes</a>
-        <a href="#" class="medium polaroid img9"><img src="AW1.jpg" alt="">werewolves</a>
-        <a href="#" class="polaroid img10"><img src="Untitled-2.jpg" alt="">sky and grass</a>
-        <a href="#" class="small polaroid img11"><img src="drawme22.jpg" alt="">Draw me</a>
-        <a href="#" class="small polaroid img12"><img src="oc 2.jpg" alt="">two-colored hair boy</a>
-        <a href="#" class="small polaroid img13"><img src="Untitled-3.jpg" alt="">skecth clothes</a>
-        <a href="#" class="small polaroid img14"><img src="drawme22.jpg" alt="">Draw me</a>
-        <a href="#" class="polaroid img15"><img src="Untitled-3.jpg" alt="">skecth clothes</a>
+    <section>
+        <header>
+            <a href="#" class="logo">Webstie Của Tôi</a>
+            <ul id="menuList">
+                <li><a href="#" style="--i:1;">Trang Chủ</a></li>
+                <li><a href="#" style="--i:2;" class="active">Tác Phẩm</a></li>
+                <li><a href="#" style="--i:3;">ÂM Nhạc</a></li>
+                <li><a href="#" style="--i:4;">Dự Án</a></li>   
+            </ul>
+            <img src="menu.png" class="menu_icon" onclick="toggleMenu()">
+        </header>
+    </section>
 
+    <div class="container">
+        <h1>Art is not what you see, but what you make others see</h1>
+        <h2>Nghệ thuật không phải điều bạn thấy mà là điều bạn khiến người khác thấy</h2>
+        <div class="image-container">
+            <div class="image"><img src="artwork/AW1.jpg" alt=""></div>
+            <div class="image"><img src="artwork/AW2.jpg" alt=""></div>
+            <div class="image"><img src="artwork/AW3.jpg" alt=""></div>
+            <div class="image"><img src="artwork/AW4.jpg" alt=""></div>
+            <div class="image"><img src="artwork/AW5.jpg" alt=""></div>
+            <div class="image"><img src="artwork/AW6.jpg" alt=""></div>
+            <div class="image"><img src="artwork/AW7.jpg" alt=""></div>
+            <div class="image"><img src="artwork/AW8.jpg" alt=""></div>
+        </div>
+        <h1>You use a glass mirror to see your face. you use works of art to see your soul</h1>
+        <h2>Bạn dùng gương để ngắm gương mặt mình. Bạn dùng nghệ thuật để ngắm tâm hồn mình</h2>
+    <div class="popup-image">
+        <span>&times;</span>
+        <img src="AW1.jpg" alt="">
+    </div>    
     </div>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function toggleMenu() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "100%";
+            }
+            else {
+                menuList.style.maxHeight = "0px";
+            }
+        };
+        /*
+        document.querySelectorAll('.image-container img').forEach(image =>{
+            image.onclick = () =>{
+                document.querySelector('.popup-image').style.display = 'block';
+                document.querySelector('popup-image img').src = image.getAttribute('src');
+            }
+        });
+        document.querySelector('popup-image span').onclick = () =>{
+            document.querySelector('popup-image').style.display = 'none';
+        };
+        */
+    </script>
+
+    <footer class="footer-distributed">
+        <div class="footer-right">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/NguyenHoangAiMy"><i class="fa fa-github"></i></a>
+        </div>
+        <div class="footer-left">
+            <p class="footer-links">
+                <a class="link-1" href="https://nguyenhoangaimy.github.io/home.html">Trang Chủ</a>
+                <a href="https://nguyenhoangaimy.github.io/artwwork.html">Tác Phẩm</a>
+                <a href="https://nguyenhoangaimy.github.io/music.html">Âm Nhạc</a>
+                <a href="https://nguyenhoangaimy.github.io/favo.artist.html">Dự Án</a>
+                <a href="#">Thông Tin</a>
+            </p>
+            <p>Được tạo bở Mỹ Nguyễn &copy; 2022</p>
+        </div>
+    </footer>
 </body>
-<footer class="footer-distributed">
-    <div class="footer-right">
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <a href="https://github.com/NguyenHoangAiMy"><i class="fa fa-github"></i></a>
-    </div>
-    <div class="footer-left">
-        <p class="footer-links">
-            <a class="link-1" href="https://nguyenhoangaimy.github.io/home.html">Trang Chủ</a>
-            <a href="https://nguyenhoangaimy.github.io/artwwork.html">Tác Phẩm</a>
-            <a href="#">ÂM Nhạc</a>
-            <a href="https://nguyenhoangaimy.github.io/favo.artist.html">Thư Viện ảnh</a>
-            <a href="#">Liên Hệ</a>
-        </p>
-        <p>Được tạo bở Mỹ Nguyễn &copy; 2022</p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <p>background by WLOP</p>
-    </div>
-</footer>
 </html>
