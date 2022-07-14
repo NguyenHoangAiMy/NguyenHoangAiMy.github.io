@@ -54,8 +54,8 @@
 					<img 
 						class="thumbnail" 
 						src="video/dancing.jpeg"
-						data-id="Qzc_aX8c8g4"
-						data-title="Sasha Alex Sloan-Dancing With Your Ghost"
+						data-id="ZmDBbnmKpqQ"
+						data-title="Olivia Rodrigo-drivers license"
 						alt="">
 					<div class="play-icon">
 						<img src="video/play.png" alt="">
@@ -145,16 +145,16 @@
 		);
 		const videoTitle = document.querySelector(".video-gallery .video-title");
 		const showVideo = (videoId, title) => {
-			let videoUrl = 'https://www.youtube.com/embed/ZmDBbnmKpqQ?${videoId}rel=0';
+			let videoUrl = 'https://www.youtube.com/embed/${videoId}rel=0';
 			videoPlayer.setAttribute("src", videoUrl);
 			videoTitle.innerHTML = title;
 		};
 
 		videoThumbnails.forEach(v => {
 			v.addEventListener("click", () =>{
-				showVideo(v.dataset.id, v.dataset.title)
-			})
-		})
+				showVideo(v.dataset.id, v.dataset.title);
+			});
+		});
 	</script>
 
 </body>
