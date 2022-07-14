@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="stylevideo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<title>Dự án</title>
+</head>
+<body>
+	<header id="header">
+		<a href="#" class="logo">Mỹ Nguyễn</a>
+		<div class="toggle"></div>
+		<ul class="navigation">
+			<li><a href="#">Trang Chủ</a></li>
+			<li><a href="#">Tác Phẩm</a></li>
+			<li><a href="#">Âm Nhạc</a></li>
+			<li><a href="#" class="active">Dự án</a></li>
+		</ul>
+	</header>
+	<section>
+		<h2 id="text"><span>Hãy cùng khám phá nào</span><br>Let's go</h2>
+		<img src="duan/bird1.png" id="bird1">
+		<img src="duan/bird2.png" id="bird2">
+		<img src="duan/forest.png" id="forest">
+		<a href="#sec" id="btn">Khám Phá</a>
+		<img src="duan/rocks.png" id="rocks">
+		<img src="duan/water.png" id="water">
+	</section>
+
+	<div class="video-gallery-container">
+		<h2 class="title">Những Bài hái Yêu Thích</h2>
+
+		<div class="video-gallery">
+			<div class="featured-video">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/ZmDBbnmKpqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				<h3 class="video-title">
+					Olivia Rodrigo - drivers license (Official Video)
+				</h3>
+			</div>
+			<div class="all-video">
+				<div class="video">
+					<img class="thumbnail" src="video/dancing.jpeg" alt="">
+					<div class="play-icon">
+						<img src="video/play.png" alt="">
+					</div>
+				</div>
+				<div class="video">
+					<img class="thumbnail" src="video/lovely.jpeg" alt="">
+					<div class="play-icon">
+						<img src="video/play.png" alt="">
+					</div>
+				</div>
+				<div class="video">
+					<img class="thumbnail" src="video/symphony.jpeg" alt="">
+					<div class="play-icon">
+						<img src="video/play.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer class="footer-distributed">
+        <div class="footer-right">
+            <a href="https://nguyenhoangaimy.blogspot.com/?utm_source=zalo&utm_medium=zalo&utm_campaign=zalo"><i class="fa-brands fa-blogger"></i></a>
+            <a href="https://nguyenhoangaimy.wordpress.com/"><i class="fa-brands fa-wordpress"></i></a>
+            <a href="https://uocmocuatoihoasitr.wixsite.com/website"><i class="fa-brands fa-wix"></i></a>
+            <a href="https://github.com/NguyenHoangAiMy"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <div class="footer-left">
+            <p class="footer-links">
+                <a class="link-1" href="https://nguyenhoangaimy.github.io/home.html">Trang Chủ</a>
+                <a href="https://nguyenhoangaimy.github.io/artwwork.html">Tác Phẩm</a>
+                <a href="https://nguyenhoangaimy.github.io/music.html">Âm Nhạc</a>
+                <a href="https://nguyenhoangaimy.github.io/favo.artist.html">Dự Án</a>
+            </p>
+            <p>Được tạo bở Mỹ Nguyễn &copy; 2022</p>
+            <p>Sống tại Nha Trang</p>
+        </div>
+    </footer>
+	<script>
+		/*parallax scrolling*/
+		let text = document.getElementById('text');
+		let bird1 = document.getElementById('bird1');
+		let bird2 = document.getElementById('bird2');
+		let btn = document.getElementById('btn');
+		let rocks = document.getElementById('rocks');
+		let water =  document.querySelector('water');
+		let header =  document.querySelector('header');
+
+		window.addEventListener('scroll', function(){
+			let value = window.scrollY;
+
+			text.style.top = 50 + value * -0.5 + '%';
+			bird1.style.top = value * -1.5 + 'px';
+			bird1.style.left = value * 2 + 'px';
+			bird2.style.top = value * -1.5 + 'px';
+			bird2.style.left = value * -5 + 'px';
+			btn.style.marginTop = value * 1.5 + 'px';
+			rocks.style.top = value * -0.12 + 'px';
+			forest.style.top = value * 0.25 + 'px';
+			header.style.top = value * 0.5 + 'px';
+		})
+		/*parallax scrolling*/
+
+		const toggleMenu = document.querySelector('.toggle');
+		const navgation = document.querySelector('.navigation');
+			toggleMenu.onclick = function(){
+				toggleMenu.classList.toggle('active');
+				navgation.classList.toggle('active');
+			}
+	</script>
+
+</body>
+
+</html>
