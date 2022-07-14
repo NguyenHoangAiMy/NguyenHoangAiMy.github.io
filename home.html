@@ -1,57 +1,63 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <title>Trang chủ</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="stylehome.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="stylehome.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<title>Trang Chủ</title>
 </head>
 <body>
-    <section>
-        <img alt='drawme22' src="drawme22.png" class="drawme">
-             
-        <header>
-            <a href="#" class="logo">Webstie Của Tôi</a>
-            <ul id="menuList">
-                <li><a href="https://nguyenhoangaimy.github.io/home.html" style="--i:1;" class="active">Trang Chủ</a></li>
-                <li><a href="https://nguyenhoangaimy.github.io/artwwork.html" style="--i:2;">Tác Phẩm</a></li>
-                <li><a href="#" style="--i:3;">ÂM Nhạc</a></li>
-                <li><a href="#" style="--i:4;">Dự Án</a></li>   
-            </ul>
-            <img src="menu.png" class="menu_icon" onclick="toggleMenu()">
-        </header>
-        
-        <div class="content">
-            <div class="textbox">
-                <h2>Chào Mừng Đến Trang Web Của Tôi</h2>
-                <p>Nơi tôi lưu trữ những tác phẩm, các dự án. Chia sẽ những bài nhạc hay, những món ăn yêu thích</p>
-                <a href="#">Thông Tin Cá Nhân</a>
-            </div>
-        </div>
-    </section>
+	<header id="header">
+		<a href="#" class="logo">Mỹ Nguyễn</a>
+		<div class="toggle"></div>
+		<ul class="navigation">
+			<li><a href="#" class="active">Trang Chủ</a></li>
+			<li><a href="#">Tác Phẩm</a></li>
+			<li><a href="#">Âm Nhạc</a></li>
+			<li><a href="#">Dự án</a></li>
+		</ul>
+	</header>
+	<section>
+		<img src="stars.png" id="stars">
+		<img src="moon.png" id="moon">
+		<img src="mountains_behind.png" id="mountains_behind">
+		<h2 id="text">Ánh Trăng</h2>
+		<a href="#about" id="btn">Thông Tin</a>
+		<img src="mountains_front.png" id="mountains_front">
+	</section>
 
-    <script>
-        var menuList = document.getElementById("menuList");
-        menuList.style.maxHeight = "0px";
-        function toggleMenu() {
-            if (menuList.style.maxHeight == "0px") {
-                menuList.style.maxHeight = "100%";
-            }
-            else {
-                menuList.style.maxHeight = "0px";
-            }
-        }
-    </script>
-    <footer class="footer-distributed">
+	<div class="sec" id="sec"></div>
+	
+	<div class="about" id="about">
+		<div class="max-width">
+			<h2 class="title">Về tôi</h2>
+			<div class="about-content">
+				<div class="column left">
+					<img src="tacpham/AW7.jpg" alt="">
+				</div>
+				<div class="column right">
+					<div class="text2">Tôi là Mỹ và là một <span>designer</span></div>
+					<p>+Tôi đang trên hành trình theo đuổi đam mê. Cố gắng mỗi ngày để hoàn thiện bản thân
+						<br><br>+Sinh: 01/08/2002
+						<br><br>+Sống tại: Nha Trang
+						<br><br>+SĐT: 0 797 ### ####
+						<br><br>+2021: Làm editor chỉnh sửa sfx(sound efect) cho 1 page chuyên dịch truyện. Vẽ một vài bức tranh cho một người quen
+						<br><br>+Học vấn:
+						<br>-2013 - 2017: Trường THCS Nguyễn Công Trứ
+						<br>-2017 - 2020: Trường THPT Hoàng Văn Thụ
+						<br>-2021 - 2023: Trường CĐKT Công Nghệ Nha Trang
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer-distributed">
         <div class="footer-right">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="https://github.com/NguyenHoangAiMy"><i class="fa fa-github"></i></a>
+            <a href="https://nguyenhoangaimy.blogspot.com/?utm_source=zalo&utm_medium=zalo&utm_campaign=zalo"><i class="fa-brands fa-blogger"></i></a>
+            <a href="https://nguyenhoangaimy.wordpress.com/"><i class="fa-brands fa-wordpress"></i></a>
+            <a href="https://uocmocuatoihoasitr.wixsite.com/website"><i class="fa-brands fa-wix"></i></a>
+            <a href="https://github.com/NguyenHoangAiMy"><i class="fa-brands fa-github"></i></a>
         </div>
         <div class="footer-left">
             <p class="footer-links">
@@ -59,10 +65,42 @@
                 <a href="https://nguyenhoangaimy.github.io/artwwork.html">Tác Phẩm</a>
                 <a href="https://nguyenhoangaimy.github.io/music.html">Âm Nhạc</a>
                 <a href="https://nguyenhoangaimy.github.io/favo.artist.html">Dự Án</a>
-                <a href="#">Thông Tin</a>
             </p>
             <p>Được tạo bở Mỹ Nguyễn &copy; 2022</p>
+            <p>Sống tại Nha Trang</p>
         </div>
     </footer>
+	<script>
+		/*parallax scrolling*/
+		let stars = document.getElementById('stars');
+		let moon = document.getElementById('moon');
+		let mountains_behind = document.getElementById('mountains_behind');
+		let text = document.getElementById('text');
+		let btn = document.getElementById('btn');
+		let mountains_front = document.getElementById('mountains_front');
+		let header =  document.querySelector('header');
+
+		window.addEventListener('scroll', function(){
+			let value = window.scrollY;
+			stars.style.left = value * 0.25 + 'px';
+			moon.style.top = value * 1.05 + 'px';
+			mountains_behind.style.top = value * 0.5 + 'px';
+			mountains_front.style.top = value * 0 + 'px';
+			text.style.marginRight = value * 3 + 'px';
+			text.style.marginTop = value * 1.5 + 'px';
+			btn.style.marginTop = value * 1.5 + 'px';
+			header.style.top = value * 0.5 + 'px';
+		})
+		/*parallax scrolling*/
+
+		const toggleMenu = document.querySelector('.toggle');
+		const navgation = document.querySelector('.navigation');
+			toggleMenu.onclick = function(){
+				toggleMenu.classList.toggle('active');
+				navgation.classList.toggle('active');
+			}
+	</script>
+
 </body>
+
 </html>

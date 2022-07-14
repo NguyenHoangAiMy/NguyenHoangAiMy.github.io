@@ -2,10 +2,10 @@
 <html lang="vi">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="stylevideo.css">
+	<link rel="stylesheet" href="styleartwork.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-	<title>Âm Nhạc</title>
+	<title>Tác Phẩm</title>
 </head>
 <body>
 	<header id="header">
@@ -13,79 +13,45 @@
 		<div class="toggle"></div>
 		<ul class="navigation">
 			<li><a href="#">Trang Chủ</a></li>
-			<li><a href="#">Tác Phẩm</a></li>
-			<li><a href="#" class="active">Âm Nhạc</a></li>
+			<li><a href="#" class="active">Tác Phẩm</a></li>
+			<li><a href="#">Âm Nhạc</a></li>
 			<li><a href="#">Dự án</a></li>
 		</ul>
 	</header>
 	<section>
-		<h2 id="text"><span>Hãy cùng tận hưởng âm nhạc</span><br>Let's go</h2>
+		<h2 id="text"><span>Hãy cùng thưởng thức</span><br>Let's go</h2>
 		<img src="duan/bird1.png" id="bird1">
 		<img src="duan/bird2.png" id="bird2">
 		<img src="duan/forest.png" id="forest">
-		<a href="#video" id="btn">Khám Phá</a>
+		<a href="#img" id="btn">Khám Phá</a>
 		<img src="duan/rocks.png" id="rocks">
 		<img src="duan/water.png" id="water">
 	</section>
 
-	<div class="sec" id="sec"></div>
-
-	<div class="video-gallery-container" id="video">
-		<h2 class="title">Những Bài hái Yêu Thích</h2>
-
-		<div class="video-gallery">
-			<div class="featured-video">
-				<div class="reponsive-iframe">
-					<iframe 
-						width="560" height="315" 
-						src="https://www.youtube.com/embed/ZmDBbnmKpqQ?rel=0" 
-						title="YouTube video player" 
-						frameborder="0" 
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-					></iframe>
-				</div>
-
-				<h3 class="video-title">
-					Olivia Rodrigo - drivers license
-				</h3>
-			</div>
-			<div class="all-video">
-				<div class="video">
-					<img 
-						class="thumbnail" 
-						src="video/dancing.jpeg"
-						data-id="Qzc_aX8c8g4"
-						data-title="Sasha Alex Sloan-Dancing With Your Ghost"
-						alt="">
-					<div class="play-icon">
-						<img src="video/play.png" alt="">
-					</div>
-				</div>
-				<div class="video">
-					<img 
-						class="thumbnail" 
-						src="video/lovely.jpeg"
-						data-id="V1Pl8CzNzCw"
-						data-title="Billie Eilish, Khalid - lovely" 
-						alt="">
-					<div class="play-icon">
-						<img src="video/play.png" alt="">
-					</div>
-				</div>
-				<div class="video">
-					<img 
-						class="thumbnail" 
-						src="video/symphony.jpeg"
-						data-id="aatr_2MstrI"
-						data-title="Clean Bandit-Symphony(feat. Zara Larsson)" 
-						alt="">
-					<div class="play-icon">
-						<img src="video/play.png" alt="">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	<div class="container" id="img">
+        <h1>Art is not what you see, but what you make others see</h1>
+        <h2>Nghệ thuật không phải điều bạn thấy mà là điều bạn khiến người khác thấy</h2>
+        <div class="image-container">
+            <div class="image"><img src="tacpham/logo.jpg" alt=""></div>
+            <div class="image"><img src="tacpham/AW2.jpg" alt=""></div>
+            <div class="image"><img src="tacpham/AW3.jpg" alt=""></div>
+            <div class="image"><img src="tacpham/AW4.jpg" alt=""></div>
+            <div class="image"><img src="tacpham/AW5.jpg" alt=""></div>
+            <div class="image"><img src="tacpham/AW6.jpg" alt=""></div>
+            <div class="image"><img src="tacpham/AW7.jpg" alt=""></div>
+            <div class="image"><img src="tacpham/AW8.jpg" alt=""></div>
+            <div class="image"><img src="tacpham/AW9.jpg" alt=""></div>
+            <div class="image"><img src="tacpham/AW10.jpg" alt=""></div>
+            <div class="image"><img src="tacpham/AW11.jpg" alt=""></div>
+            <div class="image"><img src="tacpham/AW12.jpg" alt=""></div>
+        </div>
+        <h1>You use a glass mirror to see your face. you use works of art to see your soul</h1>
+        <h2>Bạn dùng gương để ngắm gương mặt mình. Bạn dùng nghệ thuật để ngắm tâm hồn mình</h2>
+    <div class="popup-image">
+        <span>&times;</span>
+        <img src="tacpham/AW1.jpg" alt="">
+    </div>    
+    </div>
 	
 	<footer class="footer-distributed">
         <div class="footer-right">
@@ -118,7 +84,7 @@
 		window.addEventListener('scroll', function(){
 			let value = window.scrollY;
 
-			text.style.top = 50 + value * -0.7 + 'px';
+			text.style.top = 50 + value * -0.5 + '%';
 			bird1.style.top = value * -1.5 + 'px';
 			bird1.style.left = value * 2 + 'px';
 			bird2.style.top = value * -1.5 + 'px';
@@ -136,25 +102,17 @@
 				toggleMenu.classList.toggle('active');
 				navgation.classList.toggle('active');
 			}
-		/*video*/
-		const videoThumbnails = document.querySelectorAll(
-			".video-gallery .all-video .thumbnail"
-		);
-		const videoPlayer = document.querySelector(
-			".video-gallery .featured-video iframe"
-		);
-		const videoTitle = document.querySelector(".video-gallery .video-title");
-		const showVideo = (videoId, title) => {
-			let videoUrl = 'https://www.youtube.com/embed/ZmDBbnmKpqQ?${videoId}rel=0';
-			videoPlayer.setAttribute("src", videoUrl);
-			videoTitle.innerHTML = title;
-		};
 
-		videoThumbnails.forEach(v => {
-			v.addEventListener("click", () =>{
-				showVideo(v.dataset.id, v.dataset.title)
-			})
-		})
+		/*popup_imgage*/
+		document.querySelectorAll('.image-container img').forEach(image =>{
+			image.onclick = () =>{
+				document.querySelector('.popup-image').style.display = 'block';
+				document.querySelector('.popup-image img').src = image.getAttribute('src');
+			}
+		});
+		document.querySelector('.popup-image span').onclick = () =>{
+			document.querySelector('.popup-image').style.display = 'none';
+		}	
 	</script>
 
 </body>

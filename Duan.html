@@ -2,10 +2,10 @@
 <html lang="vi">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="stylevideo.css">
+	<link rel="stylesheet" href="styleduan.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-	<title>Âm Nhạc</title>
+	<title>Dự án</title>
 </head>
 <body>
 	<header id="header">
@@ -14,76 +14,70 @@
 		<ul class="navigation">
 			<li><a href="#">Trang Chủ</a></li>
 			<li><a href="#">Tác Phẩm</a></li>
-			<li><a href="#" class="active">Âm Nhạc</a></li>
-			<li><a href="#">Dự án</a></li>
+			<li><a href="#">Âm Nhạc</a></li>
+			<li><a href="#" class="active">Dự án</a></li>
 		</ul>
 	</header>
 	<section>
-		<h2 id="text"><span>Hãy cùng tận hưởng âm nhạc</span><br>Let's go</h2>
+		<h2 id="text"><span>Hãy cùng ngắm nhìn</span><br>Let's go</h2>
 		<img src="duan/bird1.png" id="bird1">
 		<img src="duan/bird2.png" id="bird2">
 		<img src="duan/forest.png" id="forest">
-		<a href="#video" id="btn">Khám Phá</a>
+		<a href="#light" id="btn">Khám Phá</a>
 		<img src="duan/rocks.png" id="rocks">
 		<img src="duan/water.png" id="water">
 	</section>
 
-	<div class="sec" id="sec"></div>
-
-	<div class="video-gallery-container" id="video">
-		<h2 class="title">Những Bài hái Yêu Thích</h2>
-
-		<div class="video-gallery">
-			<div class="featured-video">
-				<div class="reponsive-iframe">
-					<iframe 
-						width="560" height="315" 
-						src="https://www.youtube.com/embed/ZmDBbnmKpqQ?rel=0" 
-						title="YouTube video player" 
-						frameborder="0" 
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-					></iframe>
-				</div>
-
-				<h3 class="video-title">
-					Olivia Rodrigo - drivers license
-				</h3>
-			</div>
-			<div class="all-video">
-				<div class="video">
-					<img 
-						class="thumbnail" 
-						src="video/dancing.jpeg"
-						data-id="Qzc_aX8c8g4"
-						data-title="Sasha Alex Sloan-Dancing With Your Ghost"
-						alt="">
-					<div class="play-icon">
-						<img src="video/play.png" alt="">
-					</div>
-				</div>
-				<div class="video">
-					<img 
-						class="thumbnail" 
-						src="video/lovely.jpeg"
-						data-id="V1Pl8CzNzCw"
-						data-title="Billie Eilish, Khalid - lovely" 
-						alt="">
-					<div class="play-icon">
-						<img src="video/play.png" alt="">
-					</div>
-				</div>
-				<div class="video">
-					<img 
-						class="thumbnail" 
-						src="video/symphony.jpeg"
-						data-id="aatr_2MstrI"
-						data-title="Clean Bandit-Symphony(feat. Zara Larsson)" 
-						alt="">
-					<div class="play-icon">
-						<img src="video/play.png" alt="">
-					</div>
-				</div>
-			</div>
+	<div id="light">
+		<div class="container">
+		<div class="bubles">
+			<span style="--i:11;"></span>
+			<span style="--i:12;"></span>
+			<span style="--i:24;"></span>
+			<span style="--i:10;"></span>
+			<span style="--i:14;"></span>
+			<span style="--i:23;"></span>
+			<span style="--i:18;"></span>
+			<span style="--i:16;"></span>
+			<span style="--i:19;"></span>
+			<span style="--i:20;"></span>
+			<span style="--i:22;"></span>
+			<span style="--i:25;"></span>
+			<span style="--i:18;"></span>
+			<span style="--i:21;"></span>
+			<span style="--i:15;"></span>
+			<span style="--i:13;"></span>
+			<span style="--i:26;"></span>
+			<span style="--i:17;"></span>
+			<span style="--i:13;"></span>
+			<span style="--i:28;"></span>
+			<span style="--i:23;"></span>
+			<span style="--i:18;"></span>
+			<span style="--i:16;"></span>
+			<span style="--i:19;"></span>
+			<span style="--i:20;"></span>
+			<span style="--i:22;"></span>
+			<span style="--i:25;"></span>
+			<span style="--i:18;"></span>
+			<span style="--i:21;"></span>
+			<span style="--i:15;"></span>
+			<span style="--i:13;"></span>
+			<span style="--i:26;"></span>
+			<span style="--i:17;"></span>
+			<span style="--i:13;"></span>
+			<span style="--i:28;"></span>
+			<span style="--i:20;"></span>
+			<span style="--i:22;"></span>
+			<span style="--i:25;"></span>
+			<span style="--i:18;"></span>
+			<span style="--i:21;"></span>
+			<span style="--i:15;"></span>
+			<span style="--i:13;"></span>
+			<span style="--i:26;"></span>
+			<span style="--i:17;"></span>
+			<span style="--i:13;"></span>
+			<span style="--i:28;"></span>
+		</div>
 		</div>
 	</div>
 	
@@ -118,7 +112,7 @@
 		window.addEventListener('scroll', function(){
 			let value = window.scrollY;
 
-			text.style.top = 50 + value * -0.7 + 'px';
+			text.style.top = 50 + value * -0.5 + '%';
 			bird1.style.top = value * -1.5 + 'px';
 			bird1.style.left = value * 2 + 'px';
 			bird2.style.top = value * -1.5 + 'px';
@@ -136,25 +130,7 @@
 				toggleMenu.classList.toggle('active');
 				navgation.classList.toggle('active');
 			}
-		/*video*/
-		const videoThumbnails = document.querySelectorAll(
-			".video-gallery .all-video .thumbnail"
-		);
-		const videoPlayer = document.querySelector(
-			".video-gallery .featured-video iframe"
-		);
-		const videoTitle = document.querySelector(".video-gallery .video-title");
-		const showVideo = (videoId, title) => {
-			let videoUrl = 'https://www.youtube.com/embed/ZmDBbnmKpqQ?${videoId}rel=0';
-			videoPlayer.setAttribute("src", videoUrl);
-			videoTitle.innerHTML = title;
-		};
 
-		videoThumbnails.forEach(v => {
-			v.addEventListener("click", () =>{
-				showVideo(v.dataset.id, v.dataset.title)
-			})
-		})
 	</script>
 
 </body>
