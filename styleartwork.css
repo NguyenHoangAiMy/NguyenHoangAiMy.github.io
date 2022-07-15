@@ -193,6 +193,7 @@ section #text span{
 		font-size: 1.5em;
 	}
 	#header .navigation{
+		padding: 0;
 		display: none;
 	}
 	#header .navigation.active{
@@ -203,14 +204,15 @@ section #text span{
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-		width: 350px;
+		width: 100vh;
 		height: 100vh;
-		background: #0c688d;
+		background: #006633;
 	}
 	#header .navigation li{
 		margin-left: 0;
 	}
 	#header .navigation li a{
+		color: #0a0a0f;
 		font-size: 1.5em;
 		margin: 5px 0;
 		display: inline-block;
@@ -229,7 +231,7 @@ section #text span{
 	}
 	.toggle.active{
 		position: fixed;
-		background: url(close.png);
+		background: url(close1.png);
 		background-size: 30px;
 		background-position: center;
 		background-repeat: no-repeat;

@@ -147,6 +147,64 @@ section #text span{
 	0 0 50px #ff2d75,
 	0 0 100px #ff2d75;
 }
+/* 3 ring */
+.Line{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #094b65;
+}
+.container2{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container2 .ring{
+	position: relative;
+	width: 150px;
+	height: 150px;
+	margin: -30px;
+	border-radius: 50%;
+	border: 4px solid transparent;
+	border-top: 4px solid #24ecff;
+	animation: animate 4s linear infinite;
+}
+@keyframes animate{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+.container2 .ring::before{
+	content: "";
+	position: absolute;
+	top: 12px; right: 12px;
+	border-radius: 50%;
+	width: 15px; height: 15px;
+	background: #24ecff;
+	box-shadow: 0 0 0 5px #24ecff33,
+	0 0 0 10px #24ecff22,
+	0 0 0 20px #24ecff11,
+	0 0 0 20px #24ecff,
+	0 0 0 50px #24ecff;
+}
+.container2 .ring:nth-child(3){
+	position: absolute;
+	top: -66,66px;
+}
+.container2 p{
+	position: absolute;
+	color: #fff;
+	font-size: 1.5em;
+	bottom: -80px;
+	letter-spacing: 0.15em;
+}
+/* 3 ring */
 @keyframes animate{
 	0%{
 		transform: translateY(100vh) scale(0);
@@ -158,12 +216,13 @@ section #text span{
 
 @media (max-width: 992px){
 	#header{
-		padding: 20px;
+		padding: 0;
 	}
 	#header .logo{
 		font-size: 1.5em;
 	}
 	#header .navigation{
+		padding: 0;
 		display: none;
 	}
 	#header .navigation.active{
@@ -174,14 +233,15 @@ section #text span{
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-		width: 350px;
+		width: 100vh;
 		height: 100vh;
-		background: #0c688d;
+		background: #006633;
 	}
 	#header .navigation li{
 		margin-left: 0;
 	}
 	#header .navigation li a{
+		color: #0a0a0f;
 		font-size: 1.5em;
 		margin: 5px 0;
 		display: inline-block;
@@ -200,7 +260,7 @@ section #text span{
 	}
 	.toggle.active{
 		position: fixed;
-		background: url(close.png);
+		background: url(close1.png);
 		background-size: 30px;
 		background-position: center;
 		background-repeat: no-repeat;
